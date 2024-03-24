@@ -45,7 +45,7 @@ This task is focused on developing an object detection pipeline using a pre-trai
 
 The training strategy and model optimization resulted in high accuracy and low error, demonstrating the effectiveness of the approach.
 
-#### Future Work
+#### limits and perspectives
 
 -Given more time, I plan to integrate an SSD (Single Shot Multibox Detector) with the current MobileNetV2 model to further enhance the precision of bounding box predictions. This combination is expected to leverage the speed and efficiency of MobileNetV2 with the accurate localization capabilities of SSD, potentially offering significant improvements in detecting and precisely mapping objects within images
 
