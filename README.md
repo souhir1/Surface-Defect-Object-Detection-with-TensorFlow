@@ -3,7 +3,7 @@ This repository hosts a comprehensive project aimed at solving surface defect de
 
 ## Project Structure
 
-- **Task 1 Notebook (`Task1_Data_Preparation_Object_Detection.ipynb`):** Focuses on dataset preparation, converting raw data into TFRecord format for optimal processing with MobileNetV2. This notebook covers data cleaning, augmentation, and transformation steps.
+- **Task 1 Notebook (`Task1_Data_Preparation_Object_Detection.ipynb`):** Focuses on dataset preparation, converting raw data into TFRecord format . This notebook covers transformation steps.
 - **Task 3 Notebook (`task3-object-detection-mobilenetv2.ipynb`):** Delves into adapting and fine-tuning the MobileNetV2 model for surface defect detection. It discusses model architecture adjustments, optimization strategies, and the inference process tailored for object detection using TensorFlow.
 
 ## Detailed Documentation
