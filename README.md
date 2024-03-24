@@ -35,7 +35,6 @@ This task is focused on developing an object detection pipeline using a pre-trai
 
 - The model underwent training for 100 epochs, with adaptive learning rate adjustments and early stopping mechanisms to prevent overfitting, concluding the training at epoch 57 to preserve the optimal weights from epoch 47. This strategy led to high accuracy in class predictions and minimal error in bounding box predictions, as highlighted in the performance metrics table below.
 
-```plaintext
 | Metric | Training | Validation | Test |
 |--------|----------|------------|------|
 | Bounding Box Output Mean Squared Error | 0.0369 | 0.0344 | 0.0329 |
