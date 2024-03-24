@@ -28,7 +28,8 @@ The initial stage of this project centers on preparing the dataset for object de
 
 This task is focused on developing an object detection pipeline using a pre-trained MobileNetV2 backbone for feature extraction, supplemented with a custom neural network layer for the detection specifics.
 
-1. **Model Choice and Architecture:** Selection of MobileNetV2 for its efficient integration within TensorFlow, facilitating both classification and bounding box regression in a unified manner. The architecture includes global average pooling and dropout layers to mitigate overfitting, with branches for bounding box regression and class prediction.
+
+1. **Model Choice and Architecture:** This selection was made after comparing several models, including Faster R-CNN and EfficientDet. MobileNetV2 was chosen for its seamless TensorFlow integration and its unique ability to perform both classification and bounding box regression in one shot, streamlining the object detection process. The architecture includes global average pooling and dropout layers to mitigate overfitting, with branches for bounding box regression and class prediction.
 2. **Model Optimization:** Fine-tuning of MobileNetV2 specifically for the object detection task to ensure precise bounding box predictions and class identification. The model employs the Adam optimizer and uses separate loss functions for the bounding box and class outputs, incorporating strategies like early stopping and learning rate reduction to enhance training efficiency and model performance.
 
 #### Training Outcomes
